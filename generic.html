@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic Page - Massively by HTML5 UP</title>
+		<title>Karims Music</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,71 +19,351 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Who am I?</a>
+						<a href="index.html" class="logo">Some of my Music</a>
 					</header>
 
 				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="index.html">My Work</a></li>
-							<li class="active"><a href="generic.html">About Me</a></li>							
-							<li><a href="elements.html">Reference</a></li>
-						</ul>
+				<nav id="nav">
+					<ul class="links">
+						<li><a href="index.html">My Work</a></li>			
+						<li class="active"><a href="generic.html">Music</a></li>
+						<li><a href="elements.html">More Reel Work</a></li>
+					</ul>
+					
 						<ul class="icons">
-							<li><a href="https://twitter.com/MusicHolder_" target= "_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.linkedin.com/in/karim-nessim-03a041244/"  target= "_blank"class="icon brands alt fa-linkedin"><span class="label">linkdin</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/karim-nessim-03a041244/" target= "_blank" class="icon brands alt fa-linkedin"><span class="label">linkdin</span></a></li>
+						<li><a href="https://www.youtube.com/@MusicHolder" class="icon brands fa-youtube"><span class="label">youtube</span></a></li>
+						<a href="https://musicholder.itch.io/" target="_blank" class="itch-icon">
+							
+						  </a>
+						  
+						  <style>
+							.itch-icon img {
+							  transition: filter 0.3s ease;
+							}
+						  
+							.itch-icon:hover img {
+							  filter: brightness(0) saturate(100%) invert(29%) sepia(100%) saturate(2537%) hue-rotate(178deg) brightness(97%) contrast(101%);
+							}
+						  </style>
+						  
 						</ul>
 					</nav>
 
 				<!-- Main -->
-					<div id="main">
+					<div id="main"> 
 
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">May 27, 2024</span>
-									<h1>Who Am I?<br />
-									</h1>
-									<p></p>
-								</header>
-								<div class="image main"><img src="images/question-mark-vector-icon.jpg" alt="" /></div>
-								<p>Hello! Im Karim Im Egyptian/Canadian and my main goal is to be a great game developer! my main points of strengths are in C# programming and sfx,Vo editing/recording and music design!</p>
-								<p></p>
-							</section>
+									<span class="date">As of September 21st 2025</span>
+									<!DOCTYPE html>
+									<!DOCTYPE html>
+									<html lang="en">
+									<head>
+										<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        .music-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Creates a 2-column grid */
+            gap: 20px; /* Adds space between each music player */
+            width: 80%;
+            max-width: 900px; /* Limits the width of the grid */
+            margin: 20px auto; /* Centers the grid on the page */
+        }
+
+        .music-player {
+            display: flex;
+            flex-direction: column; /* Stack the image and content vertically */
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            justify-content: flex-start; /* Align the items to the start (top side) */
+            width: 100%;
+        }
+
+        .music-cover {
+            width: 120px; /* Set a fixed width for the cover image */
+            height: 120px; /* Set a fixed height to keep the image square */
+            object-fit: cover; /* Ensures the image fills the container and keeps its aspect ratio */
+            border-radius: 10px;
+            margin-bottom: 20px; /* Space between the image and the content */
+        }
+
+        .music-details {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .music-details h3 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .music-details p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+
+        audio {
+            width: 100%;
+            border-radius: 5px;
+            outline: none;
+            background-color: #333;
+            margin-bottom: 15px;
+        }
+
+        /* Updated style for the playlist button to resemble YouTube style */
+.playlist-button {
+    background-color: #FF0000; /* YouTube Red */
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold; /* Make text bold like YouTube buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Add smooth background color transition */
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem; /* Adjust the font size */
+}
+
+.playlist-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+    transform: scale(1.05); /* Slight scale up on hover */
+}
+
+.playlist-button:focus {
+    outline: none; /* Remove outline for focus */
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.6); /* Red glow on focus */
+}
+
+.playlist-button:active {
+    background-color: #b30000; /* Even darker red when clicked */
+}
+
+
+        .track-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .track-list li {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .track-list li:hover {
+            background-color: #ff6b6b;
+            color: white;
+        }
+
+        .track-list li.active {
+            background-color: #ff6b6b;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Music Grid Container -->
+    <div class="music-grid">
+        <!-- Music Player 1 -->
+        <div class="music-player">
+            <img src="images/Final Preview Image.png" alt="Cover Image" class="music-cover" />
+            <div class="music-details">
+                <h3>Shifting Kingdoms</h3>
+                <p>By Karim Nessim</p>
+
+                <audio controls id="audio-player-1">
+                    <source src="images/lvl4 concept 2 (atmosphere update).wav" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <ul class="track-list" id="track-list-1">
+                    <li class="track-item active" data-song="images/lvl4 concept 2 (atmosphere update).wav">Track 1 - Dark Crystals</li>
+                                        <li class="track-item" data-song="images/Level 8 Muisc Maybe Final epic1.wav">Track 2 - Here and Now</li>
+                    <li class="track-item" data-song="images/karimnessim_guitar_stereo.wav">Track 3 - Shifting Kingdoms</li>
+                </ul>
+
+                <a href="https://musicholder.bandcamp.com/" target="_blank" class="playlist-button">View Full Playlist</a>
+            </div>
+        </div>
+
+        <!-- Music Player 2 -->
+        <div class="music-player">
+            <img src="images/Acrodack.png" alt="Cover Image" class="music-cover" />
+            <div class="music-details">
+                <h3></h3>
+                <p>By Karim Nessim</p>
+
+                <audio controls id="audio-player-2">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <ul class="track-list" id="track-list-2">
+                    <li class="track-item active" data-song="images/MusicforASV.wav">Track 1 - In The Stillness </li>
+                    <li class="track-item" data-song="images/Story never told (No Lyrics Offical_)3.wav">Story Never Told</li>
+                    <li class="track-item" data-song="images/child at heart (WIP)3.wav">Child at heart</li>
+                    
+                </ul>
+
+                <a href="https://musicholder.bandcamp.com/" target="_blank" class="playlist-button">View Full Playlist</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to update the audio source when a song is clicked
+        function updateSong(playerId, trackListId) {
+            const audioPlayer = document.getElementById(playerId);
+            const trackList = document.getElementById(trackListId);
+            const tracks = trackList.getElementsByClassName('track-item');
+
+            // Add click event to each track
+            Array.from(tracks).forEach(track => {
+                track.addEventListener('click', function() {
+                    const songUrl = this.getAttribute('data-song'); // Get the song URL
+                    audioPlayer.src = songUrl; // Change the audio source
+                    audioPlayer.play(); // Play the new song
+
+                    // Update the active state for the track
+                    Array.from(tracks).forEach(t => t.classList.remove('active')); // Remove 'active' class from all tracks
+                    this.classList.add('active'); // Add 'active' class to the clicked track
+                });
+            });
+        }
+
+        // Initialize the updateSong function for both players
+        updateSong('audio-player-1', 'track-list-1');
+        updateSong('audio-player-2', 'track-list-2');
+    </script>
+
+</body>
+</html>
+
+
+<!-- keepgoing -->
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 					
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
+						<footer id="footer">
 							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(604) 762-8096</a></p>
+								<form action="https://formsubmit.co/karim.nessim@proton.me" method="POST">
+									<div class="fields">
+										<div class="field">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" required />
+										</div>
+										<div class="field">
+											<label for="email">Email</label>
+											<input type="email" name="email" id="email" required />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="3" required></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
+									<!-- Optional settings -->
+									<input type="hidden" name="_captcha" value="false">
+									<input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+								</form>
+							</section>
+						</footer>
+						
+							<section>
+								<h3>Discord</h3>
+								<p><a href="#"></a>MusicHolder</p>
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">karnessim02@gmail.com</a></p>
+								<p><a href="#">karim.nessim@proton.me</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
+									<ul class="icons alt">
+										<ul class="icons alt">
+											<!-- LinkedIn -->
+											<li>
+												<a href="https://www.linkedin.com/in/karim-nessim-03a041244/" target="_blank" class="icon brands alt fa-linkedin linkedin-icon">
+													<span class="label">LinkedIn</span>
+												</a>
+											</li>																							
+										
+											<!-- YouTube -->
+											<li>
+												<a href="https://www.youtube.com/@MusicHolder" target="_blank" class="icon brands alt fa-youtube youtube-icon">
+													<span class="label">YouTube</span>
+												</a>
+											</li>
+										
+																				
+										<style>
+											/* Social hover styles */
+											.linkedin-icon:hover {
+												color: #0077b5 !important; /* LinkedIn Blue */
+												transition: color 0.3s ease;
+											}
+										
+											.youtube-icon:hover {
+												color: #FF0000 !important; /* YouTube Red */
+												transition: color 0.3s ease;
+											}
+										
+											.github-icon {
+												color: #333 !important; /* GitHub grey */
+												transition: color 0.3s ease;
+											}
+										
+											.github-icon:hover {
+												color: #6e6e6e !important;
+											}
+										
+																											
+											.itch-icon:hover img {
+												color: #FF0000 !important; /* YouTube Red */
+												transition: color 0.3s ease;
+											}
+										</style>
+										
 									
-									<li><a href="https://www.linkedin.com/in/karim-nessim-03a041244/" target= "_blank" class="icon brands alt fa-linkedin"><span class="label">linkdin</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" target= "_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-			</div>
-
+								
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
